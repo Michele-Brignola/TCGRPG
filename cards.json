@@ -10,7 +10,7 @@
         "name": { "name": "Beniz, Imperatore dello Shogunato" },
         "type": "leader",
         "cost": 0,
-        "image": "./img/ST01-01L.webp"
+        "image": "https://michele-brignola.github.io/TCGRPG/img/ST01-01L.webp"
       }
     },
     "_legal": {
