@@ -1,22 +1,51 @@
 {
-  "name": "My Card Game",
+  "name": "TCGRPG",
   "deckBuilding": {
-    "mainFilters": ["type", "cost"],
-    "formats": [{ "title": "Standard format", "gameplay": "Standard" }]
+    "mainFilters": ["tipo", "costo", "colore"],
+    "costCurveIgnoredTypes": ["Leader"],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Standard",
+        "deckRuleset": "Standard",
+        "legalityCode": "STD"
+      }
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "general": { "min": 40, "max": 50, "maxPerCard": 3 },
+        "categories": [{ "category": "Leader", "min": 1, "max": 1 }]
+      }
+    }
   },
   "gameplay": {
     "Standard": {
-      "mulligan": {
-        "startingHandSize": 5
+      "beforeGameStart": {
+        "boardCategoriesInSideboard": ["Leader"],
+        "boardCardSelection": [
+          {
+            "category": "LEADER",
+            "min": 1,
+            "max": 1,
+            "unselectedDestination": "ExileHidden"
+          }
+        ],
+        "chooseAnotherStartingPlayer": true
       },
-      "newTurn": {
-        "drawPerTurn": 1
-      },
-      "countersStartingValues": [],
+      "mulligan": { "startingHandSize": 5 },
+      "newTurn": { "drawOnStart": true, "drawPerTurn": 1 },
+      "defaultNotes": "P1 life: 20\nP2 life: 20",
+      "countersStartingValues": [20],
       "sections": {
         "layout": {
           "direction": "column",
-          "content": [{ "section": "Board" }]
+          "content": [
+            { "section": "Board" },
+            {
+              "direction": "row",
+              "content": [{ "section": "Mana" }, { "section": "Items" }]
+            }
+          ]
         },
         "sectionsDict": {
           "Board": {
@@ -25,6 +54,14 @@
             "alignment": "CENTER"
           }
         }
+      },
+      "autoPlayFromHand": {
+        "Creature": "Board",
+        "Resource": "Mana",
+        "Spell": "Stack"
+      },
+      "autoPlayFromStack": {
+        "Spell": "Discard"
       }
     }
   },
