@@ -6,23 +6,24 @@
     "formats": [
       {
         "title": "Standard",
-        "gameplay": "Standard",
-        "deckRuleset": "Standard",
-        "legalityCode": "STD"
+        "gameplay": "Classic",
+        "legalityCode": "STD",
+        "deckRuleset": "Classic"
       }
     ],
     "deckRulesets": {
-      "Standard": {
+      "Classic": {
+        "checkCardLegality": true,
         "general": { "min": 41, "max": 51, "maxPerCard": 3 },
         "categories": [
           { "category": "Leader", "min": 1, "max": 1 },
-          { "category": "Main", "min": 40, "max": 50 }
+          { "category": "Sideboard", "maxPerCard": 3 }
         ]
       }
     }
   },
   "gameplay": {
-    "Standard": {
+    "Classic": {
       "beforeGameStart": {
         "boardCategoriesInSideboard": ["Leader"],
         "boardCardSelection": [
