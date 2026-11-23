@@ -1,10 +1,6 @@
 {
   "cardId": {
     "id": "ST01-01L",
-    "name": "Beniz, Imperatore dello Shogunato",
-    "type": "Leader",
-    "cost": 0,
-    "color": ["rosso"],
     "face": {
       "front": {
         "name": { "name": "Beniz, Imperatore dello Shogunato" },
@@ -13,8 +9,12 @@
         "image": "https://michele-brignola.github.io/TCGRPG/img/ST01-01L.webp"
       }
     },
+    "name": "Beniz, Imperatore dello Shogunato",
+    "type": "Leader",
+    "cost": 0,
+    "color": ["rosso"],
     "_legal": {
-      "standard": true
+      "STD": true
     }
   }
 }
