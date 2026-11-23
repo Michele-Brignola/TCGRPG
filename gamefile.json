@@ -13,8 +13,11 @@
     ],
     "deckRulesets": {
       "Standard": {
-        "general": { "min": 40, "max": 50, "maxPerCard": 3 },
-        "categories": [{ "category": "Leader", "min": 1, "max": 1 }]
+        "general": { "min": 41, "max": 51, "maxPerCard": 3 },
+        "categories": [
+          { "category": "Leader", "min": 1, "max": 1 },
+          { "category": "Main", "min": 40, "max": 50 }
+        ]
       }
     }
   },
