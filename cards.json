@@ -82,5 +82,236 @@
     "_legal": {
       "STD": true
     }
+  },
+  "ST01-05R": {
+    "id": "ST01-05R",
+    "face": {
+      "front": {
+        "name": { "name": "ST01-05R" },
+        "type": "Memoria",
+        "cost": 2,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-05R.webp"
+      }
+    },
+    "name": "ST01-05R",
+    "type": "Memoria",
+    "cost": 2,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-06R": {
+    "id": "ST01-06R",
+    "face": {
+      "front": {
+        "name": { "name": "Taglio Sanguineo" },
+        "type": "Magia",
+        "cost": 2,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-06R.webp"
+      }
+    },
+    "name": "Taglio Sanguineo",
+    "type": "Magia",
+    "cost": 2,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Istantanea", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-07R": {
+    "id": "ST01-07R",
+    "face": {
+      "front": {
+        "name": { "name": "Scarica" },
+        "type": "Magia",
+        "cost": 2,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-07R.webp"
+      }
+    },
+    "name": "Scarica ",
+    "type": "Magia",
+    "cost": 2,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Stregoneria"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-08S": {
+    "id": "ST01-08S",
+    "face": {
+      "front": {
+        "name": { "name": "Samurai Insanguinato" },
+        "type": "Creatura",
+        "cost": 3,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-08S.webp"
+      }
+    },
+    "name": "Samurai Insanguinato",
+    "type": "Creatura",
+    "cost": 3,
+    "color": ["Rosso"],
+    "rarity": "Super Rara",
+    "set": "ST01",
+    "categories": ["Guerriero", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-09C": {
+    "id": "ST01-09C",
+    "face": {
+      "front": {
+        "name": { "name": "Artigliere" },
+        "type": "Creatura",
+        "cost": 3,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-09C.webp"
+      }
+    },
+    "name": "Artigliere",
+    "type": "Creatura",
+    "cost": 3,
+    "color": ["Rosso"],
+    "rarity": "Comune",
+    "set": "ST01",
+    "categories": ["Umano", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-10R": {
+    "id": "ST01-10R",
+    "face": {
+      "front": {
+        "name": { "name": "Ronin" },
+        "type": "Creatura",
+        "cost": 3,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-10R.webp"
+      }
+    },
+    "name": "Ronin",
+    "type": "Creatura",
+    "cost": 3,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Guerriero", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-11R": {
+    "id": "ST01-11R",
+    "face": {
+      "front": {
+        "name": { "name": "Daimyos" },
+        "type": "Creatura",
+        "cost": 4,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-11R.webp"
+      }
+    },
+    "name": "Daimyos",
+    "type": "Creatura",
+    "cost": 4,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Umano", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-12R": {
+    "id": "ST01-12R",
+    "face": {
+      "front": {
+        "name": { "name": "Stratega" },
+        "type": "Creatura",
+        "cost": 4,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-12R.webp"
+      }
+    },
+    "name": "Stratega",
+    "type": "Creatura",
+    "cost": 4,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Umano", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-13R": {
+    "id": "ST01-13R",
+    "face": {
+      "front": {
+        "name": { "name": "Cannoniere" },
+        "type": "Creatura",
+        "cost": 5,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-13R.webp"
+      }
+    },
+    "name": "Cannoniere",
+    "type": "Creatura",
+    "cost": 5,
+    "color": ["Rosso"],
+    "rarity": "Rara",
+    "set": "ST01",
+    "categories": ["Umano", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-14S": {
+    "id": "ST01-14S",
+    "face": {
+      "front": {
+        "name": { "name": "Shogun" },
+        "type": "Creatura",
+        "cost": 6,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-14S.webp"
+      }
+    },
+    "name": "Shogun",
+    "type": "Creatura",
+    "cost": 6,
+    "color": ["Rosso"],
+    "rarity": "Super Rara",
+    "set": "ST01",
+    "categories": ["Guerriero", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-15S": {
+    "id": "ST01-15S",
+    "face": {
+      "front": {
+        "name": { "name": "Musashi, Il Samurai Leggendario" },
+        "type": "Creatura",
+        "cost": 6,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-15S.webp"
+      }
+    },
+    "name": "Musashi, Il Samurai Leggendario",
+    "type": "Creatura",
+    "cost": 6,
+    "color": ["Rosso"],
+    "rarity": "Super Rara",
+    "set": "ST01",
+    "categories": ["Leggendaria", "Guerriero", "Bushido"],
+    "_legal": {
+      "STD": true
+    }
   }
 }
