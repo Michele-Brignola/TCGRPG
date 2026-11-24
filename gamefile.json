@@ -71,6 +71,6 @@
   },
   "cards": {
     "dataUrl": "https://michele-brignola.github.io/TCGRPG/cards.json",
-    "cardBack": "https://michele-brignola.github.io/TCGRPG/mtg_cardback.webp"
+    "cardBack": "https://michele-brignola.github.io/TCGRPG/img/mtg_cardback.webp"
   }
 }
