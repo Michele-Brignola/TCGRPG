@@ -39,10 +39,11 @@
             "chooseAnotherStartingPlayer": true
          },
          "mulligan": {
-            "startingHandSize": 5
+            "startingHandSize": 5,
+            "mulliganCount": { "max": 1 }
          },
          "newTurn": {
-            "drawOnStart": true,
+            "drawOnStart": false,
             "drawPerTurn": 1
          },
          "defaultNotes": "Counter 1: Punti vita (inizio 20)\nCounter 2: Mana (inizio 0; aggiungi 1 manualmente a ogni turno)",
@@ -50,41 +51,23 @@
          "sections": {
             "customSections": ["Campo", "Leader", "Others"],
             "layout": {
-               "direction": "row",
+               "direction": "column",
                "content": [
                   {
-                     "direction": "column",
+                     "direction": "row",
                      "content": [
-                        {
-                           "section": "Campo"
-                        },
-                        {
-                           "section": "Leader"
-                        }
+                        { "section": "Campo" },
+                        { "section": "Leader", "style": { "width": "15vh" } }
                      ]
                   },
                   {
-                     "direction": "column",
-                     "content": [
-                        {
-                           "section": "Others"
-                        }
-                     ]
+                     "direction": "row",
+                     "content": [ { "section": "Mana" }, { "section": "Others" } ]
                   }
                ],
                "isSymmetricalForOpponents": true
             },
             "categoriesAlreadyOnBoard": ["Leader"],
-            "autoPlayFromHand": {
-               "Creatura": "Campo",
-               "Magia": "Stack",
-               "Leader": "Leader"
-            },
-            "autoPlayFromStack": {
-               "Creatura": "Campo",
-               "Magia": "Discard",
-               "Leader": "Leader"
-            },
             "sectionsDict": {
                "Stack": {
                   "isDefaultSection": true,
@@ -113,14 +96,29 @@
                   "isHorizontalAllowed": true,
                   "noQuickActions": true
                },
+               "Mana": {
+                  "title": "Mana",
+                  "isHidden": "no",
+                  "height": "DEFAULT",
+                  "alignment": "START",
+                  "displayedTitle": "Mana",
+                  "noQuickActions": true
+               },
                "Others": {
                   "title": "Others",
                   "isHidden": "no",
-                  "height": "SMALL",
-                  "alignment": "END",
-                  "opponentAlignment": "START",
+                  "height": "DEFAULT",
+                  "alignment": "START",
                   "displayedTitle": "Others",
                   "noQuickActions": true
+               },
+               "autoPlayFromHand": {
+                  "Creatura": "Campo",
+                  "Magia": "Stack"
+               },
+               "autoPlayFromStack": {
+                  "Creatura": "Campo",
+                  "Magia": "Discard"
                }
             }
          }
