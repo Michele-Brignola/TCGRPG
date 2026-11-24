@@ -3,13 +3,13 @@
     "id": "ST01-01L",
     "face": {
       "front": {
-        "name": { "name": "Beniz, Imperatore dello Shogunato" },
+        "name": { "name": "Li Zhou, Demone del Sangue" },
         "type": "Leader",
         "cost": 0,
         "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-01L.webp"
       }
     },
-    "name": "Beniz, Imperatore dello Shogunato",
+    "name": "Li Zhou, Demone del Sangue",
     "type": "Leader",
     "cost": 0,
     "color": ["Rosso"],
@@ -58,6 +58,27 @@
     "rarity": "Rara",
     "set": "ST01",
     "categories": ["Stregoneria"],
+    "_legal": {
+      "STD": true
+    }
+  },
+  "ST01-04C": {
+    "id": "ST01-04C",
+    "face": {
+      "front": {
+        "name": { "name": "Avanguardia Samurai" },
+        "type": "Creatura",
+        "cost": 2,
+        "image": "https://michele-brignola.github.io/TCGRPG/img/cards/ST01-04C.webp"
+      }
+    },
+    "name": "Avanguardia Samurai",
+    "type": "Creatura",
+    "cost": 2,
+    "color": ["Rosso"],
+    "rarity": "Comune",
+    "set": "ST01",
+    "categories": ["Guerriero", "Bushido"],
     "_legal": {
       "STD": true
     }
